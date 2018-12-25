@@ -24,6 +24,7 @@
 		1AFC85D617C8FE2300D9DA0B /* ConnectTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AFC85D017C8FE2300D9DA0B /* ConnectTestViewController.xib */; };
 		1AFC85D717C8FE2300D9DA0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AFC85D217C8FE2300D9DA0B /* InfoPlist.strings */; };
 		1AFC85D817C8FE2300D9DA0B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AFC85D417C8FE2300D9DA0B /* MainWindow.xib */; };
+		CA699FF921D1E0200035BAE1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA699FF721D1E0200035BAE1 /* Launch Screen.storyboard */; };
 		DC5889A5158DE310007AFCFC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5889A4158DE310007AFCFC /* Security.framework */; };
 		DCDE285D13DDEC74006BFCC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDE285C13DDEC74006BFCC0 /* UIKit.framework */; };
 		DCDE285F13DDEC74006BFCC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDE285E13DDEC74006BFCC0 /* Foundation.framework */; };
@@ -63,6 +64,7 @@
 		1AFC85D117C8FE2300D9DA0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ConnectTestViewController.xib; sourceTree = "<group>"; };
 		1AFC85D317C8FE2300D9DA0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		1AFC85D517C8FE2300D9DA0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainWindow.xib; sourceTree = "<group>"; };
+		CA699FF821D1E0200035BAE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		DC5889A4158DE310007AFCFC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		DCDE285813DDEC74006BFCC0 /* ConnectTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDE285C13DDEC74006BFCC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				1AFC85D017C8FE2300D9DA0B /* ConnectTestViewController.xib */,
+				CA699FF721D1E0200035BAE1 /* Launch Screen.storyboard */,
 				1AFC85D217C8FE2300D9DA0B /* InfoPlist.strings */,
 				1AFC85D417C8FE2300D9DA0B /* MainWindow.xib */,
 			);
@@ -252,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA699FF921D1E0200035BAE1 /* Launch Screen.storyboard in Resources */,
 				1A0386EB17BCB41A00899D3A /* TestUI.xib in Resources */,
 				1A0386F117BCBFE300899D3A /* readme.txt in Resources */,
 				1AFC85D617C8FE2300D9DA0B /* ConnectTestViewController.xib in Resources */,
@@ -308,6 +312,14 @@
 				1AFC85D517C8FE2300D9DA0B /* en */,
 			);
 			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CA699FF721D1E0200035BAE1 /* Launch Screen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA699FF821D1E0200035BAE1 /* en */,
+			);
+			name = "Launch Screen.storyboard";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
